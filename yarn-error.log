@@ -1,0 +1,64 @@
+Arguments: 
+  /Users/mediacannibal/.nvm/versions/node/v15.14.0/bin/node /Users/mediacannibal/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/mediacannibal/.yarn/bin:/Users/mediacannibal/.config/yarn/global/node_modules/.bin:/Users/mediacannibal/.nvm/versions/node/v15.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mediacannibal/.yarn/bin:/Users/mediacannibal/.config/yarn/global/node_modules/.bin:/Users/mediacannibal/.nvm/versions/node/v15.14.0/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  15.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "bde-new",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.1.1",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
