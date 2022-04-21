@@ -1,1 +1,91 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.6aabe3bf.js"></script><link href="/static/css/main.073c9b0a.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html><html lang="en"><head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-157352486-1"></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157352486-1');</script><title>MC BDE</title><meta name="google-site-verification" content="wXopyExZq8koLZmUF4Luqcvwb95AK20FLi3-lBJFkJ0"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Square Dashboard: React Single Page Application"><script src="https://apis.google.com/js/client:platform.js"></script><script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script><link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="./logo.svg"></head><style>body {
+        font-family: Barlow;
+    }</style><body><div id="root"></div><div id="modal"></div><script>!function (e, a, t, n, g, c, o) { e.GoogleAnalyticsObject = g, e.ga = e.ga || function () { (e.ga.q = e.ga.q || []).push(arguments) }, e.ga.l = 1 * new Date, c = a.createElement(t), o = a.getElementsByTagName(t)[0], c.async = 1, c.src = "https://www.google-analytics.com/analytics.js", o.parentNode.insertBefore(c, o) }(window, document, "script", 0, "ga"), ga("create", "UA-37045209-2", "auto"), ga("send", "pageview")</script><script type="text/javascript" src="./app~c5b24172.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~31ecd969.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~253ae210.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~0f485567.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~2cece08c.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~e0f7d667.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~1fb195ae.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~15c10b6e.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~0f08bdbc.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~027f9d28.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~e4173fa2.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~7da828cd.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~92c00e46.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~fc2f81ef.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~987e6011.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~2e7d8596.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~b5906859.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~7777d9b4.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~9c5b28f6.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~3daa2673.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~f9ca8911.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~678f84af.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~f734b0c6.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~bacacef5.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~10e2e882.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~f71cff67.c294da8267639c4dce4e.js"></script><script type="text/javascript" src="./app~ea1f58e8.c294da8267639c4dce4e.js"></script></body><!-- The core Firebase JS SDK is always required and must be listed first --><script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-messaging.js"></script><!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries --><script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script><!-- <script>
+    function showToken(a) {
+        console.log(a);
+    }
+    firebase.initializeApp({
+        apiKey: "AIzaSyBROSFdFQWbp8K2xMMjKaqazC4HP4grI5A",
+        authDomain: "mc-bde.firebaseapp.com",
+        projectId: "mc-bde",
+        storageBucket: "mc-bde.appspot.com",
+        messagingSenderId: "181659839939",
+        appId: "1:181659839939:web:bd1bd39cb9b2232add6176",
+        measurementId: "G-R7GER30TG2"
+    });
+
+    const messaging = firebase.messaging();
+
+    // messaging.usePublicVapidKey()
+
+    function subscribe(messaging) {
+        messaging.requestPermission()
+            .then(function () {
+                messaging.getToken()
+                    .then(function (currentToken) {
+                        console.log(currentToken);
+
+                        if (currentToken) {
+                            sendTokenToServer(currentToken);
+                        }
+                    })
+                    .catch(function (err) {
+                        setTokenSentToServer(false);
+                    });
+            })
+            .catch(function (err) {
+                console.warn('not granted', err);
+            });
+    }
+
+    function sendTokenToServer(currentToken) {
+        if (!isTokenSentToServer(currentToken)) {
+            console.log('Отправка токена на сервер...');
+
+            var url = '';
+            $.post(url, {
+                token: currentToken
+            });
+
+            setTokenSentToServer(currentToken);
+        }
+    }
+
+    function isTokenSentToServer(currentToken) {
+        return window.localStorage.getItem('sentFirebaseMessagingToken') == currentToken;
+    }
+
+    function setTokenSentToServer(currentToken) {
+        window.localStorage.setItem(
+            'sentFirebaseMessagingToken',
+            currentToken ? currentToken : ''
+        );
+    }
+
+
+    if ('Notification' in window) {
+        navigator.serviceWorker.register("./firebase-messaging-sw.js")
+            .then((registration) => {
+                var messaging = firebase.messaging();
+                messaging.useServiceWorker(registration);
+                console.log(messaging);
+                if (Notification.permission === 'granted') {
+                    subscribe(messaging);
+                    messaging.onMessage(function (payload) {
+                        console.log('Message received. ', payload);
+                    });
+                }
+
+                $('#subscribe').on('click', function () {
+                    subscribe(messaging);
+                });
+            });
+
+    }
+
+</script> --></html>
